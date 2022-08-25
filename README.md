@@ -1,5 +1,5 @@
 # Getting Started with React App
-
+This is a simple Ecommerce shopping cart react app using REDUX, SAGA and Redux Persist. In this app you get products list using json server api, cart counter in header and cart page with feature of change quantity and price calculated automatically. We use Redux Persist for persist all cart data after refresh. You can find product list in db.json file you can run this json server by ### `json-server --watch db.json --port 3500`
 ## Available Scripts
 
 In the project directory, you can run:
