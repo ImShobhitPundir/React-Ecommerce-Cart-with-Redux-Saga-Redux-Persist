@@ -10,7 +10,7 @@ export default function Header() {
     console.log("Header data:", result)
     return (
         <div className='header'>
-            <Link to="/"><h1 className='logo'>E-com</h1></Link>
+            <Link to="/"><h1 className='logo'>Logo</h1></Link>
             <div className="search-box">
                 <input type="text"  placeholder="Search..." onChange={(e)=>dispatch(productSearch(e.target.value))}/>
             </div>
